@@ -1,0 +1,125 @@
+/* Alapértelmezett stílusok */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+/* Fejléc */
+header {
+    background: #333;
+    color: #fff;
+    padding: 1rem 0;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 2rem;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 1.8rem;
+}
+
+header nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+header nav ul li {
+    margin-left: 1.5rem;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+header nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Fő tartalom */
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 2rem;
+}
+
+.main-news {
+    text-align: center;
+    background: #eef2f5;
+    padding: 2rem 0;
+    margin-bottom: 1rem;
+}
+
+.main-news h2 {
+    font-size: 2rem;
+    color: #555;
+}
+
+/* Szekciók */
+.section {
+    padding: 2rem 0;
+    border-bottom: 1px solid #ddd;
+}
+
+.section h2 {
+    font-size: 1.8rem;
+    color: #333;
+    margin-bottom: 1rem;
+}
+
+.news-item, .advert-item {
+    margin-bottom: 1.5rem;
+}
+
+.news-item h3, .advert-item h3 {
+    font-size: 1.5rem;
+    color: #444;
+}
+
+.news-item p, .advert-item p {
+    margin: 0.5rem 0 1rem 0;
+}
+
+.news-item a, .advert-item a {
+    color: #007bff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.news-item a:hover, .advert-item a:hover {
+    text-decoration: underline;
+}
+
+/* Szponzorált tartalom */
+.advert {
+    background: #faf0e6;
+    padding: 2rem;
+    border: 1px solid #ddd;
+    margin-top: 2rem;
+}
+
+/* Lábjegyzet */
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+    margin-top: 2rem;
+}
+
+footer p {
+    margin: 0;
+    font-size: 0.9rem;
+}
