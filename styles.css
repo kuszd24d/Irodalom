@@ -1,4 +1,4 @@
-/* Alapértelmezett stílusok */
+
 body {
     font-family: 'Arial', sans-serif;
     line-height: 1.6;
@@ -8,7 +8,7 @@ body {
     color: #333;
 }
 
-/* Fejléc */
+
 header {
     background: #333;
     color: #fff;
@@ -48,7 +48,7 @@ header nav ul li a:hover {
     text-decoration: underline;
 }
 
-/* Fő tartalom */
+
 .container {
     max-width: 1100px;
     margin: 0 auto;
@@ -67,7 +67,7 @@ header nav ul li a:hover {
     color: #555;
 }
 
-/* Szekciók */
+
 .section {
     padding: 2rem 0;
     border-bottom: 1px solid #ddd;
@@ -123,3 +123,4 @@ footer p {
     margin: 0;
     font-size: 0.9rem;
 }
+
