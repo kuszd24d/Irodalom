@@ -16,6 +16,10 @@ body {
 
 }
 
+img {
+    max-width: 500px;
+    position: relative;
+}
 
 header {
     background: #333;
